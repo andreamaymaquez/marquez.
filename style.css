@@ -1,0 +1,232 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins, sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background-image:url("IMG_20260305_234158.jpg");
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+color:white;
+}
+
+
+.header{
+position:fixed;
+top:0;
+width:100%;
+padding:15px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,0.6);
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+.navbar a{
+margin-left:30px;
+text-decoration:none;
+color:white;
+transition:0.3s;
+}
+
+.navbar a:hover{
+color:#9acd32;
+}
+
+
+.home{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.home h2{
+font-size:45px;
+}
+
+.home span{
+color:black;
+}
+
+.about{
+padding:120px 10%;
+text-align:center;
+}
+
+.about h2{
+margin-bottom:30px;
+color:#black;
+}
+
+.about-text p{
+color:black;
+}
+
+.skills ul{
+color:black;
+}
+
+.school-info p{
+color:black;
+}
+
+.skills h3,
+.school-info h3{
+color:black;
+}
+
+.about-image img{
+width:170px;
+height:170px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid white;
+margin-bottom:20px;
+}
+
+.about-text{
+max-width:700px;
+margin:auto;
+  background:rgba(255,255,255,0.2);
+}
+
+
+
+.skills-school{
+display:flex;
+justify-content:center;
+gap:50px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.skills, .school-info{
+background:rgba(255,255,255,0.2);
+padding:20px;
+border-radius:10px;
+backdrop-filter:blur(5px);
+}
+
+.gallery{
+padding:80px 10%;
+text-align:center;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+margin-top:30px;
+}
+
+.gallery-grid img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:10px;
+transition:0.3s;
+}
+
+.gallery-grid img:hover{
+transform:scale(1.05);
+}
+
+.videos{
+padding:80px 10%;
+text-align:center;
+}
+
+.video-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.video-box{
+background:rgba(255,255,255,0.9);
+padding:20px;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+}
+
+.video-box h3{
+color:black;
+margin-bottom:10px;
+}
+
+.video-box video{
+width:100%;
+border-radius:10px;
+}
+
+.contact{
+padding:80px 10%;
+text-align:center;
+}
+
+.contact-box{
+background:rgba(0,0,0,0.6);
+padding:40px;
+max-width:500px;
+margin:auto;
+border-radius:15px;
+}
+
+.contact-info{
+text-align: center;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  
+}
+
+.contact-info p{
+margin:5px 0;
+}
+
+.contact-info a{
+color:white;
+text-decoration:none;
+}
+
+.form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.form input,
+.form textarea{
+ padding:10px;
+ border:none;
+ border-radius:5px;
+}
+
+.form button{
+ background:#9acd32;
+ border:none;
+ padding:10px;
+ font-weight:bold;
+ cursor:pointer;
+ border-radius:5px;
+}
+
+.footer{
+ text-align:center;
+ padding:20px;
+ background:rgba(0,0,0,0.7);
+}
